@@ -1,0 +1,96 @@
+{
+    "projets": [
+      {
+        "link": "affiche-banu-merchantman",
+        "titre": "Affiche Banu Merchantman",
+        "annee": "2022",
+        "prefix": "banu",
+        "images": [
+          "affiche1.png",
+          "affiche2.png"
+        ],
+        "categorie": [
+          "Design graphique",
+          "Branding"
+        ],
+        "desciption": "Dans le cadre d'un concour lancé par Cloud Imperium Games, j'ai réalisé une affiche promotionnelle pour le Banu Merchantman, un vaisseau de Star Citizen.",
+        "affichage": "fiche"
+      },
+      {
+        "link": "affiche-opoa-nox",
+        "titre": "Affiche Opoa Nox",
+        "annee": "2022",
+        "prefix": "nox",
+        "images": [
+          "affiche1.png"
+        ],
+        "categorie": [
+          "Design graphique",
+          "Branding"
+        ],
+        "desciption": "Dans le cadre d'un concour lancé par Cloud Imperium Games, j'ai réalisé une affiche promotionnelle pour le Opoa Nox, un vaisseau de Star Citizen.",
+        "affichage": "fiche"
+      },
+      {
+        "link": "logo-souris-city-legacy",
+        "titre": "Logo de Souris City Legacy ",
+        "annee": "2023",
+        "prefix": "skaven",
+        "images": [
+          "logo_skaven.png"
+        ],
+        "categorie": [
+          "Design graphique",
+          "Branding"
+        ],
+        "desciption": "J'ai crée ce logo qui représente mon equipe de BloodBowl, un jeux de football américain fantastique éditer par WarHammer.",
+        "affichage": "fiche"
+      },
+      {
+        "link": "edit-jeu-video",
+        "titre": "Edit de jeu vidéo",
+        "annee": "depuis 2021",
+        "prefix": "illustration",
+        "images": ["logo_ytb.png"],
+        "videos": ["iBW_lxy0Pac?si=hj_N-6h7Me6OkdPw", "HdQT-ufjhc8?si=Zt06Gh9V7o1bWNHN"],
+        "categorie": ["Vidéo", "Animation", "Montage"],
+        "desciption": "Edit CSGO ou sur d'autre jeux, retrouver plus de mes montage sur <a href='https://www.youtube.com/@Link975_' target='_blank'>ma chaine youtube</a>",
+        "affichage": "video"
+    },
+    {
+      "link": "tips-of-csgo",
+      "titre": "CSGO TIPS",
+      "annee": "depuis 2023",
+      "prefix": "illustration",
+      "images": ["logocsgotiktok.png"],
+      "videos": ["7199940366735379714", "7180659286907817218"],
+      "categorie": ["Vidéo", "Animation", "Montage", "Branding", "Design graphique"],
+      "desciption": "Projet de tuto et partage de clip autour du jeux csgo. Creation de l'identité graphique, du logo et des vidéo. Plus de video sur <a href='https://www.tiktok.com/@tips_of_csgo' target='_blank'>mon compte tiktok</a>",
+      "affichage": "tiktok"
+    },
+    {
+      "link": "objectif-pensionaire",
+      "titre": "Objectif Pensionaire",
+      "annee": "2022",
+      "prefix": "illustration",
+      "images": ["objectif.png"],
+      "posts": ["Cf2pNUhhY8b", "CgtE5EdhI-j"],
+      "categorie": ["Vidéo", "Animation", "Montage", "Branding", "Design graphique"],
+      "desciption": "Creation d'une page Instagram dans le cadre d'un cour. Plus de post sur <a href='https://www.tiktok.com/@tips_of_csgo' target='_blank'>le compte Instagram</a>",
+      "affichage": "instagram"
+    },
+    {
+      "link": "last-knight",
+      "titre": "Jeu 'The last knight of the bridge'",
+      "annee": "2024",
+      "prefix": "illustration",
+      "images": ["last_knight.png"],
+      "videos": ["2lmn2sWDrtU?si=LAZXoCitYXwtydJt"],
+      "categorie": ["Developpement", "Game design", "Design graphique"],
+      "desciption": "Jeux vidéo crée avec Phaser.js un framework Javascript, pour tester le jeu : <a href='/jeu-phaser' target='_blank'>cliquez ici</a>",
+      "affichage": "video"
+    }
+    ]
+}
+  
+
