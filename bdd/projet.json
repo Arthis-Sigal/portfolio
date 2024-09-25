@@ -89,8 +89,17 @@
       "categorie": ["Developpement", "Game design", "Design graphique"],
       "desciption": "Jeux vidéo crée avec Phaser.js un framework Javascript, pour tester le jeu : <a href='/jeu-phaser' target='_blank'>cliquez ici</a>",
       "affichage": "video"
+    },
+    {
+      "link": "better-than-gold",
+      "titre": "Jeu de société 'Better than gold'",
+      "annee": "2023",
+      "prefix": "illustration",
+      "images": ["last_knight.png"],
+      "videos": ["mtKTLlnXut8"],
+      "categorie": ["Game design", "Design graphique"],
+      "desciption": "Jeu de plateau, un groupe de nain doivent battre le boss d'un donjon pour récupérer le trésor.",
+      "affichage": "video"
     }
     ]
 }
-  
-
