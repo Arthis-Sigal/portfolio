@@ -11639,6 +11639,45 @@ pre .code {
   z-index: -1;
 }
 
+/* matrix vertion téléphone */
+@media (max-width: 767.98px) {
+  #matrix {
+    display: none;
+  }
+}
+
+/* matrix vertion tablette */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #matrix {
+    display: none;
+  }
+}
+
+.nav-arrow {
+  position: fixed;
+  top: 70%;
+  transform: translateY(-50%);
+  font-size: 4rem;
+  color: #000000;
+  cursor: pointer;
+  z-index: 1000;
+  padding: 10px;
+
+}
+
+.nav-arrow-left {
+  left: 50px;
+}
+  
+.nav-arrow-right {
+  right: 50px;
+}
+
+.nav-arrow:hover {
+  color: rgba(0, 255, 0, 1);
+}
+
+
 .section {
   padding: 80px 0;
 }
