@@ -10982,7 +10982,7 @@ a.text-dark:hover, a.text-dark:focus {
 p {
   font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
-  color: #444;
+  color: #b7b7b7;
 }
 
 .title {
@@ -11688,12 +11688,13 @@ pre .code {
 
 .about-section {
   border-bottom: 1px solid #dee2e6;
+  background-color: #000;
+  color: #fff;
 }
 
 .about-section .about-card {
   padding: 60px;
   /*border avec du dégradé*/
-  border: 1px solid #dee2e6;
   border-right: none;
   
 }
