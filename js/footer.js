@@ -9,14 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="row">
             <div class="col-lg-6">
                 <h3 class="header-title">Arthis Sigal</h3>
-                <p>Developer</p>
                 <a href="https://www.youtube.com/channel/UCyWh5HeySA6P-fe64OvkOSQ" class="text-danger" target="_blank"><img src="assets/icon/youtube.png" alt="lien vers youtube" class="icon"></a>
                 <a href="https://www.linkedin.com/in/sigal-arthis-7b1b3b1b3" class="text-danger" target="_blank"><img src="assets/icon/linkedin.png" alt="lien vers linkedin" class="icon ml-3"></i></a>
 
             </div>
             <div class="col-lg-6">
                 <h3 class="header-title">Contact</h3>
-                <a href="mailto:sigalarthis@gmail.com" class="text-black b-5 clicLinkk">sigalarthis@gmail.com</a>
+                <a href="mailto:sigalarthis@gmail.com" class="text-black b-5 clicLink">sigalarthis@gmail.com</a>
                 <br/>
                 <a href="tel:+687 52.98.50" class="text-black t-5 clicLink">+687 52.98.50</a>
             </div>

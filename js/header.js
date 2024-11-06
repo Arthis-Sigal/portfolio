@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="header-content">
                     <h4 class="header-subtitle" >Bonjour, je suis</h4>
                     <h1 class="header-title">Arthis Sigal</h1>
-                    <h6 class="header-mono">Developpeur</h6>
+                    <h6 class="header-mono"><span id="animated-text"></span>_</h6>
                     <canvas id="matrix"></canvas>
                 </div>
         </div>

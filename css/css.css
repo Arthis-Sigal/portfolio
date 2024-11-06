@@ -100,11 +100,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -175,13 +170,13 @@ sup {
 }
 
 a {
-  color: #F85C70;
+  color: rgb(0, 189, 0);
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #f51330;
+  color: #ff0022;
   text-decoration: none;
 }
 
@@ -10981,8 +10976,8 @@ a.text-dark:hover, a.text-dark:focus {
 /* typography */
 p {
   font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
-  opacity: .8;
-  color: #b7b7b7;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .title {
