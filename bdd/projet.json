@@ -98,7 +98,7 @@
       "images": ["last_knight.png"],
       "videos": ["mtKTLlnXut8"],
       "categorie": ["Game design", "Design graphique"],
-      "desciption": "Jeu de plateau où un groupe de nains doit vaincre le boss d'un donjon pour récupérer le trésor. Entre collaboration et trahison, ce jeu se distingue par son donjon modulaire : aucune partie ne se ressemble, car l'intérieur est généré aléatoirement grâce à un système de cartes tirées au sort. Vous pouvez consulter les règles pour découvrir un aperçu du jeu ici : <a href='../assets/regle_better_than_gold.pdf' target='blank_'>Télécharger le PDF</a>",
+      "desciption": "Jeu de plateau où un groupe de nains doit vaincre le boss d'un donjon pour récupérer le trésor. Entre collaboration et trahison, ce jeu se distingue par son donjon modulaire : aucune partie ne se ressemble, car l'intérieur est généré aléatoirement grâce à un système de cartes tirées au sort. Vous pouvez consulter les règles pour découvrir un aperçu du jeu ici : <a href='../assets/regle_better_than_gold.pdf' target='blank_'>Consulter le PDF</a>",
       "affichage": "video"
     }
     ]
