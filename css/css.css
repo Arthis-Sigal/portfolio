@@ -11851,3 +11851,29 @@ pre .code {
   position: relative;
   width: 50%;
 }
+
+
+
+/* ------------- BackToTop -------------------- */
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; 
+    background-color: rgb(0, 189, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+#back-to-top:hover {
+    background-color: rgb(186, 0, 0);
+}
