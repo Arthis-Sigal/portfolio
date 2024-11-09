@@ -13,6 +13,7 @@
     <script src="js/header.js"></script>
     <script src="js/animation-deletText.js"></script>
     <script src="js/backToTop.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
 </head>
 <body>
@@ -24,7 +25,9 @@
         <div class="container">
             <h2 class="text-center mb-4 portfolio-title">Qui donc suis-je ?</h2>
             <p class="lead mb-5 fw-bold">
-                Outre mon errance sur cette planète en quête de sens et de noigrume, je suis passionné par la technologie et les jeux vidéo.
+                Outre mon errance sur cette planète en quête de sens et de <span class="mot-survol" onclick="window.open('https://www.pokepedia.fr/Noigrum')">noigrume
+                    <img src="assets/noigrume.webp" alt="Noigrume Image" class="image-survol">
+                </span>, je suis passionné par la technologie et les jeux vidéo.
                 À travers mes projets personnels et mes études, j'ai développé une expertise en développement web, design UX/UI, audiovisuel, communication digitale
                 et jeux vidéo.
                 <br/>
@@ -52,24 +55,6 @@
         </div>
     </section>
     
-    
-    
-    
-    
-
-    <section class="section bg-custom-gray" id="portfolio">
-        <h2 class="portfolio-title text-center">Portfolio</h2>
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="image-display" class="text-center"></div>
-                </div>
-                <div class="col-md-6">
-                    <div id="portfolio-titles" class="list-group"></div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <div class="container-fluid"  id="resume" >
         <div class="row about-section">
@@ -81,7 +66,9 @@
                     <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Moteur Unity</h6>
-                        <p class="subtitle">Imagination et Developpement de jeu</p>
+                        <p class="subtitle">Imagination et Developpement de jeu 
+                            
+                          </p>
                         <hr>
                     </div>
                 </div>
@@ -97,7 +84,13 @@
                     <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Développement Frontend</h6>
-                        <p class="subtitle">HTML, JS, CSS, Angular, React</p>
+                        <p class="subtitle">      
+                            <i class="devicon-html5-plain colored"></i>
+                            <i class="devicon-javascript-plain colored"></i>
+                            <i class="devicon-css3-plain colored"></i>                  
+                            <i class="devicon-angularjs-plain colored"></i>
+                            <i class="devicon-react-original colored"></i>
+                        </p>
                         <hr>
                     </div>
                 </div>
@@ -105,7 +98,10 @@
                     <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Développement Backend </h6>
-                        <p class="subtitle">PHP, Symfony, Springboot</p>
+                        <p class="subtitle">
+                            <i class="devicon-php-plain colored"></i>
+                            <i class="devicon-symfony-original"></i>
+                            <i class="devicon-spring-original colored"></i>
                         <hr>
                     </div>
                 </div>
@@ -113,7 +109,11 @@
                     <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>UI/UX Design</h6>
-                        <p class="subtitle">Illustrator, Photoshop, Indesign, Figma</p>
+                        <p class="subtitle">
+                            <i class="devicon-illustrator-plain colored"></i>
+                            <i class="devicon-photoshop-plain"></i>
+                            <i class="devicon-figma-plain colored"></i>
+                        </p>
                         <hr>
                     </div>
                 </div>
@@ -121,7 +121,10 @@
                     <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Audiovisuel</h6>
-                        <p class="subtitle">Premiere Pro, After Effect</p>
+                        <p class="subtitle">
+                            <i class="devicon-premierepro-plain"></i>
+                            <i class="devicon-aftereffects-plain"></i>
+                        </p>
                         <hr>
                     </div>
                 </div>
@@ -203,6 +206,21 @@
             </div>
         </div>
     </div>
+
+
+    <section class="section bg-custom-gray" id="portfolio">
+        <h2 class="portfolio-title text-center">Portfolio</h2>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="image-display" class="text-center"></div>
+                </div>
+                <div class="col-md-6">
+                    <div id="portfolio-titles" class="list-group"></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     
     <div id="footer-conteneur"></div>

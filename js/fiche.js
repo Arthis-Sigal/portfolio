@@ -105,48 +105,47 @@ document.addEventListener("DOMContentLoaded", () => {
                         `;
                     }
 
-                    // Déterminer les liens pour les projets précédent et suivant
-                    const previousLink = currentIndex > 0 ? `#${projets[currentIndex - 1].link}` : null;
-                    const nextLink = currentIndex < projets.length - 1 ? `#${projets[currentIndex + 1].link}` : null;
 
                     // Ajouter les titres (nom du projet) sur les flèches
-                    const previousTitle = currentIndex > 0 ? projets[currentIndex - 1].titre : '';
-                    const nextTitle = currentIndex < projets.length - 1 ? projets[currentIndex + 1].titre : '';
+                    const previousTitle = currentIndex > 0 ? projets[currentIndex - 1].titre : projets[projets.length - 1].titre;
+                    const nextTitle = currentIndex < projets.length - 1 ? projets[currentIndex + 1].titre : projets[0].titre;
 
                     const arrowsHtml = `
-                        ${previousLink ? `<div class="nav-arrow nav-arrow-left" id="prev-arrow" title="${previousTitle}">&#10094;</div>` : ''}
-                        ${nextLink ? `<div class="nav-arrow nav-arrow-right" id="next-arrow" title="${nextTitle}">&#10095;</div>` : ''}
+                        <div class="nav-arrow nav-arrow-left" id="prev-arrow" title="${previousTitle}">&#10094;</div>
+                        <div class="nav-arrow nav-arrow-right" id="next-arrow" title="${nextTitle}">&#10095;</div>
                     `;
-
-
 
                     // Injection du contenu HTML dans la page
                     projectDetailsContainer.innerHTML = `
-                    <div class="container py-5 mt-5">
-                        <div class="row">
-                            ${contentHtml}
+                        <div class="container py-5 mt-5">
+                            <div class="row">
+                                ${contentHtml}
+                            </div>
                         </div>
-                    </div>
-                    ${arrowsHtml}
+                        ${arrowsHtml}
                     `;
 
                     // Ajouter les événements pour les flèches de navigation
-                    if (previousLink) {
-                        document.getElementById('prev-arrow').addEventListener('click', () => {
-                            loadProject(projets[currentIndex - 1].link);
-                            history.pushState(null, '', previousLink); // Met à jour l'URL sans recharger la page
-                        });
-                    }
+                    document.getElementById('prev-arrow').addEventListener('click', () => {
+                        const previousIndex = currentIndex > 0 ? currentIndex - 1 : projets.length - 1; // Va au dernier projet si on est au premier
+                        loadProject(projets[previousIndex].link);
+                        history.pushState(null, '', `#${projets[previousIndex].link}`); // Met à jour l'URL sans recharger la page
+                    });
 
-                    if (nextLink) {
-                        document.getElementById('next-arrow').addEventListener('click', () => {
-                            loadProject(projets[currentIndex + 1].link);
-                            history.pushState(null, '', nextLink); // Met à jour l'URL sans recharger la page
-                        });
-                    }
+                    document.getElementById('next-arrow').addEventListener('click', () => {
+                        const nextIndex = currentIndex < projets.length - 1 ? currentIndex + 1 : 0; // Va au premier projet si on est au dernier
+                        loadProject(projets[nextIndex].link);
+                        history.pushState(null, '', `#${projets[nextIndex].link}`); // Met à jour l'URL sans recharger la page
+                    });
 
                 } else {
-                    projectDetailsContainer.innerHTML = `<p>Projet non trouvé.</p>`;
+                    projectDetailsContainer.innerHTML = `    
+                        <div class="col-md-12 text-center mt-4">
+                            <h2 class="portfolio-title">Désolé</h2>
+                            <p class="fs-4 mt-3">Je n'ai jamais travaillé sur un projet portant ce nom :(</p>
+                            <p class="fs-2 mt-3 mb-4">Peut-être pourrait-on travailler ensemble à sa réalisation ?</p>
+                        </div>
+                    `;
                 }
             })
             .catch(error => console.error('Erreur lors du chargement du projet:', error));
