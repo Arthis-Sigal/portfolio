@@ -1,5 +1,5 @@
 var canvas = document.getElementById('matrix');
-    ctx = canvas.getContext('2d');
+ctx = canvas.getContext('2d');
 
 canvas.width = window.innerWidth * 2;
 canvas.height = window.innerHeight;
@@ -7,8 +7,8 @@ canvas.height = window.innerHeight;
 var letters = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
 letters = letters.split('');
 
-var fontSize = 10, 
-    columns = canvas.width / fontSize;
+var fontSize = 10,
+  columns = canvas.width / fontSize;
 
 var drops = [];
 for (var i = 0; i < columns; i++) {

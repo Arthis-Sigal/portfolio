@@ -3,7 +3,7 @@ function scrollToTop() {
 }
 
 
-window.onscroll = function() {
+window.onscroll = function () {
     const backToTopButton = document.getElementById("back-to-top");
     if (document.documentElement.scrollTop > 1000) {
         backToTopButton.style.display = "flex";

@@ -10,9 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     <h4 class="header-subtitle" >Bonjour, je suis</h4>
                     <h1 class="header-title">Arthis Sigal</h1>
                     <h6 class="header-mono"><span id="animated-text"></span>_</h6>
-                    <canvas id="matrix"></canvas>
                 </div>
+
         </div>
+        <canvas id="matrix"></canvas>
+
     </header>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-black" data-spy="affix" data-offset-top="510">
         <div class="container">
