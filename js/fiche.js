@@ -158,7 +158,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     });
 
                 } else {
-                    window.location.href = '/404.html';
+                    projectDetailsContainer.innerHTML = `    
+                        <div class="col-md-12 text-center mb-5 p-5">
+                            <h2 class="portfolio-title">Désolé</h2>
+                            <p class="fs-4 mt-3">Je n'ai jamais travaillé sur un projet portant ce nom :(</p>
+                            <p class="fs-2 mt-3">Peut-être pourrait-on travailler ensemble à sa réalisation ?</p>
+                            <a href='https://www.linkedin.com/in/arthissigal/' target='blank_' class=" mt-3 fs-4">CONTACTEZ MOI !</a>
+                        </div>
+                    `;
                 }
             })
             .catch(error => console.error('Erreur lors du chargement du projet:', error));
