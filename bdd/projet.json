@@ -3,7 +3,7 @@
     {
       "link": "last-knight",
       "titre": "Jeu 'The last knight of the bridge'",
-      "annee": "2024",
+      "annee": ["2024"],
       "prefix": "illustration",
       "images": [
         "last_knight.png"
@@ -16,13 +16,13 @@
         "Game design",
         "Design graphique"
       ],
-      "desciption": "Jeu vidéo créé avec Phaser.js, un framework JavaScript. J'ai récupéré la plupart des sprites sur Internet, mais j'en ai également créé certains, comme les cœurs ou le zombie archer, en modifiant les sprites originaux. Le jeu est conçut comme un défilement infini, avec différents monstres de puissance variable qui apparaissent. Le but est de gagner un maximum de points en tuant des zombies ; les zombies plus puissants rapportent plus de points. Pour tester le jeu : <a href='https://the-last-knight.netlify.app' target='_blank'>cliquez ici</a>",
+      "description": "Jeu vidéo créé avec Phaser.js, un framework JavaScript. J'ai récupéré la plupart des sprites sur Internet, mais j'en ai également créé certains, comme les cœurs ou le zombie archer, en modifiant les sprites originaux. Le jeu est conçut comme un défilement infini, avec différents monstres de puissance variable qui apparaissent. Le but est de gagner un maximum de points en tuant des zombies ; les zombies plus puissants rapportent plus de points. Pour tester le jeu : <a href='https://the-last-knight.netlify.app' target='_blank'>cliquez ici</a>",
       "affichage": "video"
     },
     {
       "link": "affiche-banu-merchantman",
       "titre": "Affiche Banu Merchantman",
-      "annee": "2022",
+      "annee": ["2022"],
       "prefix": "banu",
       "images": [
         "affiche1.png",
@@ -32,13 +32,13 @@
         "Design graphique",
         "Branding"
       ],
-      "desciption": "Dans le cadre d'un concours lancé par Cloud Imperium Games, j'ai réalisé une affiche promotionnelle pour le Banu Merchantman, un vaisseau de Star Citizen. Au premier plan, on peut voir un Banu Merchantman avec un effet de glitch. En arrière-plan se dessine la silhouette d'un alien de la race des Banu. En haut et en bas de l'affiche, 'Banu Merchantman' est écrit en langue Banu, et tout autour se répète le logo de la marque Banu.",
+      "description": "Dans le cadre d'un concours lancé par Cloud Imperium Games, j'ai réalisé une affiche promotionnelle pour le Banu Merchantman, un vaisseau de Star Citizen. Au premier plan, on peut voir un Banu Merchantman avec un effet de glitch. En arrière-plan se dessine la silhouette d'un alien de la race des Banu. En haut et en bas de l'affiche, 'Banu Merchantman' est écrit en langue Banu, et tout autour se répète le logo de la marque Banu.",
       "affichage": "fiche"
     },
     {
       "link": "affiche-opoa-nox",
       "titre": "Affiche Opoa Nox",
-      "annee": "2022",
+      "annee": ["2022"],
       "prefix": "nox",
       "images": [
         "affiche1.png"
@@ -47,13 +47,13 @@
         "Design graphique",
         "Branding"
       ],
-      "desciption": "Dans le cadre d'un concours lancé par Cloud Imperium Games, j'ai réalisé une affiche promotionnelle pour l'Opoa Nox, un vaisseau de Star Citizen. On y voit un Opoa Nox au premier plan et, en arrière-plan, une forêt de la planète Microtech. L'effet de papier froissé et le contour des objets donnent un style de bande dessinée à l'affiche.",
+      "description": "Dans le cadre d'un concours lancé par Cloud Imperium Games, j'ai réalisé une affiche promotionnelle pour l'Opoa Nox, un vaisseau de Star Citizen. On y voit un Opoa Nox au premier plan et, en arrière-plan, une forêt de la planète Microtech. L'effet de papier froissé et le contour des objets donnent un style de bande dessinée à l'affiche.",
       "affichage": "fiche"
     },
     {
       "link": "logo-souris-city-legacy",
       "titre": "Logo de Souris City Legacy ",
-      "annee": "2023",
+      "annee": ["2023"],
       "prefix": "skaven",
       "images": [
         "logo_skaven.png"
@@ -62,13 +62,13 @@
         "Design graphique",
         "Branding"
       ],
-      "desciption": "J'ai créé ce logo pour représenter mon équipe de Blood Bowl, un jeu de football américain fantastique édité par Warhammer. J'ai repris le logo des Skavens (hommes-rats), la race de mon équipe, et l'ai transformé pour qu'il ressemble à celui d'un véritable club. J'ai utilisé une police rappelant les universités américaines, tandis que le contour doré évoque le prestige de cette équipe et fait référence aux figurines dorées. Le fond rouge symbolise la violence de ce sport et contraste avec le vert, sa couleur complémentaire.",
+      "description": "J'ai créé ce logo pour représenter mon équipe de Blood Bowl, un jeu de football américain fantastique édité par Warhammer. J'ai repris le logo des Skavens (hommes-rats), la race de mon équipe, et l'ai transformé pour qu'il ressemble à celui d'un véritable club. J'ai utilisé une police rappelant les universités américaines, tandis que le contour doré évoque le prestige de cette équipe et fait référence aux figurines dorées. Le fond rouge symbolise la violence de ce sport et contraste avec le vert, sa couleur complémentaire.",
       "affichage": "fiche"
     },
     {
       "link": "edit-jeu-video",
       "titre": "Edit de jeu vidéo",
-      "annee": "depuis 2021",
+      "annee": ["depuis 2021"],
       "prefix": "illustration",
       "images": [
         "logo_ytb.png"
@@ -82,13 +82,13 @@
         "Animation",
         "Montage"
       ],
-      "desciption": "Edit 'Counter-Strike Global Offensive' ou et d'autres jeux. Retrouvez davantage de mes créations sur <a href='https://www.youtube.com/@Link975_' target='_blank'>ma chaine youtube</a>",
+      "description": "Edit 'Counter-Strike Global Offensive' ou et d'autres jeux. Retrouvez davantage de mes créations sur <a href='https://www.youtube.com/@Link975_' target='_blank'>ma chaine youtube</a>",
       "affichage": "video"
     },
     {
       "link": "tips-of-csgo",
       "titre": "CSGO TIPS",
-      "annee": "depuis 2023",
+      "annee": ["depuis 2023"],
       "prefix": "illustration",
       "images": [
         "logocsgotiktok.png"
@@ -104,19 +104,19 @@
         "Branding",
         "Design graphique"
       ],
-      "desciption": "Projet de tutoriels et partage de clips autour du jeu 'Counter-Strike Global Offensive'. Création de l'identité graphique, du logo et des vidéos. Retrouvez davantage de vidéos sur <a href='https://www.tiktok.com/@tips_of_csgo' target='_blank'>mon compte tiktok</a>",
+      "description": "Projet de tutoriels et partage de clips autour du jeu 'Counter-Strike Global Offensive'. Création de l'identité graphique, du logo et des vidéos. Retrouvez davantage de vidéos sur <a href='https://www.tiktok.com/@tips_of_csgo' target='_blank'>mon compte tiktok</a>",
       "affichage": "tiktok"
     },
     {
       "link": "objectif-pensionaire",
       "titre": "Objectif Pensionaire",
-      "annee": "2022",
+      "annee": ["2022"],
       "prefix": "illustration",
       "images": [
         "objectif.png"
       ],
       "posts": [
-        "Cf2pNUhhY8b",
+        "ChLqrAqh4GI",
         "CgtE5EdhI-j"
       ],
       "categorie": [
@@ -127,13 +127,13 @@
         "Design graphique",
         "Community Management"
       ],
-      "desciption": "Création d'une page Instagram dans le cadre d'un cours. Nous avons opté pour un compte parodique qui se moque des comptes de motivation. Plus de posts sur <a href='https://www.tiktok.com/@tips_of_csgo' target='_blank'>le compte Instagram</a>",
+      "description": "Création d'une page Instagram dans le cadre d'un cours. Nous avons opté pour un compte parodique qui se moque des comptes de motivation. Plus de posts sur <a href='https://www.instagram.com/objectif_pensionnaire?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' target='_blank'>le compte Instagram</a>",
       "affichage": "instagram"
     },
     {
       "link": "better-than-gold",
       "titre": "Jeu de société 'Better than gold'",
-      "annee": "2023",
+      "annee": ["2023"],
       "prefix": "illustration",
       "images": [
         "last_knight.png"
@@ -143,29 +143,40 @@
       ],
       "categorie": [
         "Game design",
-        "Design graphique"
+        "Design graphique",
+        "Branding",
+        "Vidéo",
+        "Animation",
+        "Montage",
+        "Developpement"
       ],
-      "desciption": "Jeu de plateau où un groupe de nains doit vaincre le boss d'un donjon pour récupérer le trésor. Entre collaboration et trahison, ce jeu se distingue par son donjon modulaire : aucune partie ne se ressemble, car l'intérieur est généré aléatoirement grâce à un système de cartes tirées au sort. Vous pouvez consulter les règles pour découvrir un aperçu du jeu ici : <a href='../assets/regle_better_than_gold.pdf' target='blank_'>Consulter le PDF</a>",
+      "description": "Jeu de plateau où un groupe de nains doit vaincre le boss d'un donjon pour récupérer le trésor. Entre collaboration et trahison, ce jeu se distingue par son donjon modulaire : aucune partie ne se ressemble, car l'intérieur est généré aléatoirement grâce à un système de cartes tirées au sort. Vous pouvez consulter les règles pour découvrir un aperçu du jeu ici : <a href='../assets/regle_better_than_gold.pdf' target='blank_'>Consulter le PDF</a> </br> Vous pouvez voir les asset du jeu ici : <a href='https://better-than-gold.netlify.app' target='_blank'>cliquez ici</a>",
       "affichage": "video"
     },
     {
       "link": "futur-projet",
       "titre": "Mon futur projet",
-      "annee": "2025? 2026? 2027? 2028?",
-      "prefix": "projet",
+      "annee": [
+        "2025 ?",
+        "2026 ?",
+        "2027 ?",
+        "2028 ?"
+      ],
+      
+      "prefix": "illustration",
       "images": [
-        "image.png"
+        "futurProjet.jpg"
       ],
       "categorie": [
-        "Game design?",
-        "Branding?",
-        "Community Management?",
-        "Developpement?",
-        "Montage?",
-        "Vidéo?",
-        "Design graphique?"
+        "Game design ?",
+        "Branding ?",
+        "Community Management ?",
+        "Developpement ?",
+        "Montage ?",
+        "Vidéo ?",
+        "Design graphique ?"
       ],
-      "desciption": "Voici une place réservé pour mon futur projet, on pourrai le réaliser ensemble ? <a href='https://www.linkedin.com/in/sigal-arthis-7b1b3b1b3' target='blank_'>CONTACTEZ MOI !</a>",
+      "description": "Voici une place réservé pour mon futur projet, on pourrai le réaliser ensemble ? <a href='https://www.linkedin.com/in/arthissigal/' target='blank_'>CONTACTEZ MOI !</a>",
       "affichage": "fiche"
     }
   ]

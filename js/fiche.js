@@ -36,9 +36,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         contentHtml = `
                             <div class="col-lg-6 order-lg-last">
                                 <h1>${projet.titre}</h1>
-                                <p><strong>Année:</strong>${projet.annee} </p>
-                                <p><strong>Catégories:</strong> ${projet.categorie.join(', ')}</p>
-                                <p>${projet.desciption}</p>
+                                <p><strong>Année:</strong>
+                                    ${projet.annee.map(ann => `<span class="tag">${ann}</span>`).join('')}
+                                </p>
+                                <p><strong>Catégories:</strong> 
+                                    ${projet.categorie.map(cat => `<span class="tag">${cat}</span>`).join('')}
+                                </p>
+                                <p>${projet.description}</p>
                             </div>
                             <div class="col-lg-6">
                                 ${imagesHtml}
@@ -55,10 +59,15 @@ document.addEventListener("DOMContentLoaded", () => {
                         contentHtml = `
                             <div class="col-lg-6 order-lg-last">
                                 <h1>${projet.titre}</h1>
-                                <p><strong>Année:</strong> ${projet.annee}</p>
-                                <p><strong>Catégories:</strong> ${projet.categorie.join(', ')}</p>
-                                <p>${projet.desciption}</p>
+                                <p><strong>Année:</strong>
+                                    ${projet.annee.map(ann => `<span class="tag">${ann}</span>`).join('')}
+                                </p>
+                                <p><strong>Catégories:</strong> 
+                                    ${projet.categorie.map(cat => `<span class="tag">${cat}</span>`).join('')}
+                                </p>
+                                <p>${projet.description}</p>
                             </div>
+
                              <div class="col-lg-6">
                                 ${videosHtml}
                             </div>
@@ -76,9 +85,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         contentHtml = `
                             <div class="col-lg-6 order-lg-last">
                                 <h1>${projet.titre}</h1>
-                                <p><strong>Année:</strong> ${projet.annee}</p>
-                                <p><strong>Catégories:</strong> ${projet.categorie.join(', ')}</p>
-                                <p>${projet.desciption}</p>
+                                <p><strong>Année:</strong>
+                                    ${projet.annee.map(ann => `<span class="tag">${ann}</span>`).join('')}
+                                </p>
+                                <p><strong>Catégories:</strong> 
+                                    ${projet.categorie.map(cat => `<span class="tag">${cat}</span>`).join('')}
+                                </p>
+                                <p>${projet.description}</p>
                             </div>
                              <div class="col-lg-6">
                                 ${videosHtml}
@@ -97,9 +110,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         contentHtml = `
                             <div class="col-lg-6 order-lg-last">
                                 <h1>${projet.titre}</h1>
-                                <p><strong>Année:</strong> ${projet.annee}</p>
-                                <p><strong>Catégories:</strong> ${projet.categorie.join(', ')}</p>
-                                <p>${projet.desciption}</p>
+                                <p><strong>Année:</strong>
+                                    ${projet.annee.map(ann => `<span class="tag">${ann}</span>`).join('')}
+                                </p>
+                                <p><strong>Catégories:</strong> 
+                                    ${projet.categorie.map(cat => `<span class="tag">${cat}</span>`).join('')}
+                                </p>
+                                <p>${projet.description}</p>
                             </div>
                              <div class="col-lg-6">
                                 ${videosHtml}
@@ -146,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <h2 class="portfolio-title">Désolé</h2>
                             <p class="fs-4 mt-3">Je n'ai jamais travaillé sur un projet portant ce nom :(</p>
                             <p class="fs-2 mt-3">Peut-être pourrait-on travailler ensemble à sa réalisation ?</p>
-                            <a href='https://www.linkedin.com/in/sigal-arthis-7b1b3b1b3' target='blank_' class=" mt-3">CONTACTEZ MOI !</a>
+                            <a href='https://www.linkedin.com/in/arthissigal/' target='blank_' class=" mt-3">CONTACTEZ MOI !</a>
                         </div>
                     `;
                 }

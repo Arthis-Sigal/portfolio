@@ -13083,6 +13083,21 @@ pre .code {
   }
 }
 
+.tag {
+  display: inline-block;
+  background-color: rgba(0, 189, 0, 1); /* Couleur de fond */
+  color: rgba(255, 255, 255, 1); /* Couleur du texte */
+  padding: 5px 10px; /* Espace autour du texte */
+  margin: 3px; /* Espacement entre les tags */
+  font-size: 1em;
+}
+
+.error-page {
+  background-color: #ffffff;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 /* tablette */
 @media (min-width: 501px) and (max-width: 1000px) {
   .header-conteneur {

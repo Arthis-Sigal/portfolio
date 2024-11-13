@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="col-lg-6">
                 <h3 class="header-title">Arthis Sigal</h3>
                 <a href="https://www.youtube.com/channel/UCyWh5HeySA6P-fe64OvkOSQ" class="text-danger" target="_blank"><img src="assets/icon/youtube.png" alt="lien vers youtube" class="icon"></a>
-                <a href="https://www.linkedin.com/in/sigal-arthis-7b1b3b1b3" class="text-danger" target="_blank"><img src="assets/icon/linkedin.png" alt="lien vers linkedin" class="icon ml-3"></i></a>
+                <a href="https://www.linkedin.com/in/arthissigal/" class="text-danger" target="_blank"><img src="assets/icon/linkedin.png" alt="lien vers linkedin" class="icon ml-3"></i></a>
 
             </div>
             <div class="col-lg-6">
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-xs-12 text-center">
-                <a href="#" class="text-black clicLink" data-bs-toggle="modal" data-bs-target="#mentionsLegalesModal">Mention legal</a>
+                <a href="#" class="text-black clicLink" data-bs-toggle="modal" data-bs-target="#mentionsLegalesModal">Mentions légales</a>
             </div>
             <div class="col-md-4 col-xs-12 text-end">
                 <p class="text-black">© 2024 Sigal Arthis. All Rights Reserved.</p>
