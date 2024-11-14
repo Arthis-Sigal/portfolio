@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const footerElement = document.createElement('div');
 
     footerElement.innerHTML = `
-    <footer class="bg-light pt-4">
+    <footer class="bg-black pt-4">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -15,19 +15,19 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
             <div class="col-lg-6">
                 <h3 class="header-title">Contact</h3>
-                <a href="mailto:sigalarthis@gmail.com" class="text-black b-5 clicLink">sigalarthis@gmail.com</a>
+                <a href="mailto:sigalarthis@gmail.com" class="b-5 clicLink">sigalarthis@gmail.com</a>
                 <br/>
-                <a href="tel:+687 52.98.50" class="text-black t-5 clicLink">+687 52.98.50</a>
+                <a href="tel:+687 52.98.50" class="t-5 clicLink">+687 52.98.50</a>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-xs-12 text-center">
-                <a href="#" class="text-black clicLink" data-bs-toggle="modal" data-bs-target="#mentionsLegalesModal">Mentions légales</a>
+                <a href="#" class="clicLink" data-bs-toggle="modal" data-bs-target="#mentionsLegalesModal">Mentions légales</a>
             </div>
             <div class="col-md-4 col-xs-12 text-end">
-                <p class="text-black">© 2024 Sigal Arthis. All Rights Reserved.</p>
+                <p class="text-white">© 2024 Sigal Arthis. All Rights Reserved.</p>
             </div>
         </div>
 
@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 <h3>Propriétaire et Éditeur du site</h3>
                 <p>
                     <strong>Nom :</strong> Sigal Arthis<br>
-                    <strong>Adresse :</strong> 123 Rue Exemple, Nouméa, Nouvelle-Calédonie<br>
                     <strong>Email :</strong> <a href="mailto:sigalarthis@gmail.com">sigalarthis@gmail.com</a><br>
                     <strong>Téléphone :</strong> <a href="tel:+687529850">+687 52.98.50</a>
                 </p>

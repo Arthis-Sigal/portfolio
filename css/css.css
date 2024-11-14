@@ -189,7 +189,7 @@ sup {
 }
 
 a {
-  color: rgb(0, 189, 0);
+  color: rgb(0, 180, 0);
   text-decoration: none;
   background-color: transparent;
 }
@@ -477,7 +477,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 small,
@@ -12630,10 +12630,6 @@ pre .code {
   font-size: 14px;
 }
 
-.footer {
-  background: #17263C;
-}
-
 .header {
   height: 20vh;
   min-height: 400px;
@@ -12717,7 +12713,7 @@ pre .code {
 
 .header-title {
   font-size: 2.4rem;
-  color: #212529;
+  color: #fff;
   font-family: "Cyberpunk";
 }
 
@@ -12811,34 +12807,15 @@ pre .code {
 
 .about-section {
   border-bottom: 1px solid #dee2e6;
-  background-color: #000;
-  color: #fff;
+  color: #000000;
+  background-color: rgba(100, 100, 100, 0.1);
 }
 
 .about-section .about-card {
   padding: 60px;
-  /*border avec du dégradé*/
   border-right: none;
 
 }
-
-
-/*animation: neonEffect 8s ease-in-out infinite;
-  background: ;
-  color: #fff;
-
-@keyframes neonEffect {
-  0% {
-      background-position: 0% 50%;
-  }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0% 50%;
-  }
-}
-  */
 
 .about-section .about-card:last-child {
   border-right: none;
@@ -12933,12 +12910,6 @@ pre .code {
 
 .icon {
   width: 40px;
-}
-
-
-.clicLink:hover {
-  text-decoration: underline;
-
 }
 
 
@@ -13055,6 +13026,9 @@ pre .code {
   margin: 5%;
 }
 
+.pointerClick {
+  cursor: pointer;
+}
 
 
 /* media queries */
@@ -13083,9 +13057,10 @@ pre .code {
   }
 }
 
+
 .tag {
   display: inline-block;
-  background-color: rgba(0, 189, 0, 1); /* Couleur de fond */
+  background-color: rgb(0, 170, 0); /* Couleur de fond */
   color: rgba(255, 255, 255, 1); /* Couleur du texte */
   padding: 5px 10px; /* Espace autour du texte */
   margin: 3px; /* Espacement entre les tags */

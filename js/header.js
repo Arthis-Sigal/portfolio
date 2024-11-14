@@ -6,11 +6,13 @@ document.addEventListener("DOMContentLoaded", () => {
     headerElement.innerHTML = `
     <header class="header">
         <div class="container">
-            <div class="header-content">
-                    <h4 class="header-subtitle" >Bonjour, je suis</h4>
-                    <h1 class="header-title">Arthis Sigal</h1>
-                    <h6 class="header-mono"><span id="animated-text"></span>_</h6>
-                </div>
+        <span onclick="window.location.href='/'">
+            <div class="header-content pointerClick">
+                <h4 class="header-subtitle" >Bonjour, je suis</h4>
+                <h1 class="header-title">Arthis Sigal</h1>
+                <h6 class="header-mono"><span id="animated-text"></span>_</h6>
+            </div>
+        </span>
 
         </div>
         <canvas id="matrix"></canvas>
@@ -34,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link">Resume</a>
+                        <a href="#resume" class="nav-link">Resumé</a>
                     </li>
                 </ul>
             </div>
