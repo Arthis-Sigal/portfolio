@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 } else {
                     projectDetailsContainer.innerHTML = `    
-                        <div class="col-md-12 text-center mb-5 p-5">
+                        <div class="col-md-12 text-center p-5 error">
                             <h2 class="portfolio-title">Désolé</h2>
                             <p class="fs-4 mt-3">Je n'ai jamais travaillé sur un projet portant ce nom :(</p>
                             <p class="fs-2 mt-3">Peut-être pourrait-on travailler ensemble à sa réalisation ?</p>
