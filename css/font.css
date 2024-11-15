@@ -11,24 +11,3 @@
     local("BirdOfParadise"),
     url("../assets/font/BirdOfParadise.ttf") format("truetype");
 }
-
-@font-face {
-  font-family: "Mandalore";
-  src:
-    local("Mandalore"),
-    url("../assets/font/mandalore.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "BTTF";
-  src:
-    local("BTTF"),
-    url("../assets/font/BTTF.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "astro";
-  src:
-    local("astro"),
-    url("../assets/font/astro.ttf") format("truetype");
-}

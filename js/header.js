@@ -46,7 +46,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     headerConteneur.appendChild(headerElement);
 
-    // Charger le script matrix.js après l'injection du HTML
     const scriptElement = document.createElement('script');
     scriptElement.src = 'js/matrix.js';
     document.body.appendChild(scriptElement);

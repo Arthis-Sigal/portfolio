@@ -1,16 +1,11 @@
-/* Container for Project Titles */
 #portfolio-titles {
     max-height: 50vh;
-    /* Adjust the height as needed */
     overflow-y: auto;
-    /* Enables scrolling if content exceeds max-height */
     padding: 10px;
-    /* Padding inside the container */
     border-radius: 5px;
-    /* Rounds the corners of the container */
 }
 
-/* Styling for Project Titles */
+
 #portfolio-titles .project-title {
     display: flex;
     align-items: center;
@@ -24,13 +19,13 @@
     border-radius: 5px;
 }
 
-/* Arrow styling within the Project Title */
+
 #portfolio-titles .project-title .arrow {
     margin-right: 10px;
     transition: transform 0.3s ease;
 }
 
-/* Hover effect for Project Titles */
+
 #portfolio-titles .project-title:hover {
     transform: translateX(10px);
     color: rgb(0, 160, 0);
@@ -41,7 +36,7 @@
     transform: translateX(5px);
 }
 
-/* Container for Image Display */
+
 .image-container {
     position: relative;
     width: 100%;
@@ -51,14 +46,14 @@
     margin: 0 auto;
 }
 
-/* Image styling within the container */
+
 .image-container img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-/* Overlay styling within the Image Container */
+
 .overlay {
     position: absolute;
     top: 0;
@@ -74,12 +69,10 @@
     border-radius: 5px;
 }
 
-/* Hover effect for the Image Overlay */
 .image-container:hover .overlay {
     opacity: 1;
 }
 
-/* Link styling within the Overlay */
 .overlay a {
     color: #fff;
     text-decoration: none;
@@ -90,7 +83,6 @@
 }
 
 
-/* Scroll barr styling */
 #portfolio-titles::-webkit-scrollbar {
     width: 8px;
 }
