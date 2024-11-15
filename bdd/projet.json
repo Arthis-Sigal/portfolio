@@ -101,6 +101,43 @@
       "affichage": "fiche"
     },
     {
+      "link": "quiz-foot",
+      "titre": "Quiz sur le football",
+      "annee": [
+        "2024"
+      ],
+      "prefix": "illustration",
+      "images": [
+        "quiz.png"
+      ],
+      "categorie": [
+        "Game design",
+        "Developpement",
+        "Design graphique"
+      ],
+      "description": "Quiz sur le football calédonien et général. Realiser dans le cadre du projet de fin d'année de MMI 3. <a href='https://zako.nc/sae/quizz/' target='blank_'>Lien vers le quiz !</a>",
+      "affichage": "fiche"
+    },
+    {
+      "link": "webdoc-foot",
+      "titre": "Web Doc : Nos cagous qualifier pour la coupe du monde 2025",
+      "annee": ["2024"],
+      "prefix": "illustration",
+      "images": [
+        "webdoc_foot.png"
+      ],
+      "videos": [
+        "U7uNAu4QsfY"
+      ],
+      "categorie": [
+        "Vidéo",
+        "Animation",
+        "Montage"
+      ],
+      "description": "Web documentaire réalisé dans le cadre de notre projet de fin d'année de MMI 3. Nous avons choisi de traiter le sujet de la qualification des u-19 à la coupe du monde u-20 au Chili.",
+      "affichage": "video"
+    },
+    {
       "link": "logo-souris-city-legacy",
       "titre": "Logo de Souris City Legacy ",
       "annee": ["2023"],
